@@ -1,7 +1,10 @@
 body {
-    background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/fisheye.jpg);
+    background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/fisheye.png);
     background-size: 80% auto;
     background-position: center center;
+    background-color: white;
+    color: #000;
+
 }
 
 .profile {
@@ -9,8 +12,6 @@ body {
 }
 
 .white {
-    background: white;
-    color: #000;
 }
 
 .small {
