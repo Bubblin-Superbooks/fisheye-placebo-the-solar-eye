@@ -1,0 +1,45 @@
+body {
+    background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/fisheye.jpg);
+    background-size: 80% auto;
+    background-position: center center;
+}
+
+.profile {
+    height: 50vh;
+}
+
+.white {
+    background: white;
+    color: #000;
+}
+
+.small {
+  font-size: 60%;
+}
+
+.social a{
+    color: #888;
+    font-size: 80%;
+}
+
+.side-gap {
+    margin: 0 1vw;
+}
+
+a {
+    color: #0077ff;
+    outline: 0 none;
+    text-decoration: none;
+    text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+    outline: 0 none;
+    color: #f00;
+}
+
+a:active {
+    color: #0a0;
+}
