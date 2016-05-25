@@ -7,3 +7,59 @@ blockquote.speech {
     left: 5vw;
     bottom: 5vw;
 }
+
+#bubble {
+    margin: auto;
+    padding: 1vw;
+    position: absolute;
+    left: 15vw;
+    top: 2vh;
+    background-color: #fff;
+    color:black;
+    text-align: center;
+    width: 30vw;
+    height:15vw;
+    border: 0.5vw solid #400;
+    border-radius: 20vw;
+}
+
+#text {
+    position: relative;
+    font-size: 4vw;
+    font-style: italic;
+    width: 30vw;
+    height:15vw;
+}
+
+#circle_1, #circle_2, #circle_3 {
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+}
+
+#circle_1 {
+  height: 7vw;
+  width:7vw;
+  border: 0.5vw solid #400;
+  bottom: -8vw;
+  right: 12vw;
+
+}
+
+#circle_2 {
+  height: 5vw;
+  width:5vw;
+  border: 0.5vw solid #400;
+  bottom: -5vw;
+  right: 4vw;
+
+}
+
+#circle_3 {
+  height: 3vw;
+  width:3vw;
+  border: 0.5vw solid #400;
+  bottom: -3vw;
+  right: 3vw;
+
+}
