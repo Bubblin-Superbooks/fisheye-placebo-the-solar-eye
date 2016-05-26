@@ -1,27 +1,61 @@
-body {
-    font-family: Source Code Pro;
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f4b18;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #36882b;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #3f9b31;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #000000;
+}
+::-webkit-scrollbar-track:active {
+  background: #000000;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+html, body{
     background: #000;
-    color: #00FF00;
-    margin: 0;
-    font-size: 2vw;
+    color: #0a0;
+    text-shadow: 0 0 3px #0f0;
+    font: 2vw monospace;
+    white-space: pre;
+    tab-size: 4;
 }
 
-canvas {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+body{
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/23.png);
+  background-size: 80% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.bars-and-stuff {
-    left: 66.6%;
+.terminalwrapper {
+  position: absolute;
+  width: 80vw;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 90%;
+  overflow-y: scroll;
 }
 
-.output-console {
-    position: fixed;
-    overflow: hidden;
-    z-index: 0;
-}
-
-p {
-    margin: 0
+.terminal {
 }
