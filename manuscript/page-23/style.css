@@ -43,17 +43,18 @@ html, body{
 
 body{
   background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/23.png);
-  background-size: 80% auto;
-  background-position: center center;
+  background-size: 100% 50%;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 .terminalwrapper {
   position: absolute;
+  bottom: 0;
   width: 80vw;
   left: 50%;
   transform: translateX(-50%);
-  height: 90%;
+  height: 50%;
   overflow-y: scroll;
 }
 
