@@ -2,6 +2,14 @@ body {
     background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/8.jpg);
 }
 
+.leaf{
+    background-image: url(https://raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/music-beats-graph.gif);
+    background-size: auto auto;
+    background-repeat: repeat-x;;
+    background-position: bottom center; 
+
+}
+
 blockquote.speech {
     position: absolute;
     left: 5vw;
