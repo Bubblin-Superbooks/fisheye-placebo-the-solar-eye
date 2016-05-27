@@ -9,11 +9,11 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    background-color: #ffc;
+    background-color: #fff;
     color:black;
     text-align: center;
-    width: 90vw;
-    height:8vw;
+    width: 60vw;
+    height:6vw;
     border-left: 0.5vw solid #400;
     border-bottom: 0.5vw solid #400;
     border-bottom-left-radius: 20vw 15vw;
@@ -23,7 +23,7 @@ body {
 
 #text {
     position: relative;
-    font-size: 4vw;
+    font-size: 3vw;
     font-style: italic;
-    height: 8vw;
+    height: 6vw;
 }
