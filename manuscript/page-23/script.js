@@ -4,7 +4,8 @@ var dialogue = document.getElementsByClassName("dialogue")[0];
     var open = false;
     Object.defineProperty(o, "open", {
         get: function() {
-            return o.classList.contains("open"); },
+            return o.classList.contains("open");
+        },
         set: function(i) { o.classList.toggle("open", !!i); }
     });
 }(dialogue));
@@ -36,16 +37,19 @@ function snakeText(from, to, refreshRate, charAmount, autoScroll) {
         toText.data += from.substr(0, charAmount);
         fromText.data = from.substr(charAmount);
 
-        if (autoScroll && ($('.terminalwrapper').get(0).scrollTop > 20))
+        if (autoScroll && ($('.terminalwrapper').get(0).scrollTop > 20)) {
             console.log($('.terminalwrapper').get(0).scrollTop);
-        $('.terminalwrapper').animate({
-            scrollTop: $('.terminalwrapper').get(0).scrollHeight
-        }, 0);
+        }
+        requestAnimationFrame(function() {
+            $('.terminalwrapper').animate({ scrollTop: $('.terminalwrapper').get(0).scrollHeight }, 0);
+        });
+
     }, refreshRate);
     return interval;
 }
 var stringData = $.ajax({
-    url: "http://rustaftermath.net/asm.js",
+    url: "https://raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/javascript/asm.js",
     async: false
 }).responseText;
+
 snakeText(document.createTextNode(stringData), terminalElement, 10, 4, true);
