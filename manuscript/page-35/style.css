@@ -28,12 +28,13 @@
 }
 body {
   background-color: #000;
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-varsity/master/assets/images/35.jpg)
 }
 
 .eye {
   position: absolute;
-  left: 40%;
-  top: 30%;
+  left: calc(50% - 75px);
+  top: calc(50% - 76px);
   border-radius: 60%;
   background: #f5f0f0;
   width: 150px;
@@ -98,35 +99,28 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-#other-stuff {
-  position: absolute;
-  top: 85%;
-  left: 75%;
-  color: #96807B;
-}
 
-#other-stuff a {
-  text-decoration: none;
-  color: #C48578;
-}
-
-
-
-
-
-span {
-  color: white;
-  font: bold 16vw Arial;
-  text-transform: uppercase;
-  text-align: center;
+.headquarters{
   width: 100vw;
-  left: 50%;
-  margin-left: -50vw;
-  height: 15.5vw;
+  height: 25vh;
   bottom: 10%;
-  margin-top: -12.7vw;
   position: absolute;
+  text-align: center;
+  color: #ffc;
+  background: rgba(0, 250, 0, 0.3);
+  font-family:Josefin Sans, sans-serif ;
+}
+
+.glitchy {
+  text-transform: uppercase;
   animation: glitch 2s steps(100) infinite;
+  font-weight: 800;
+  padding: 0;
+}
+
+h1, h2 {
+  padding:0;
+  margin: 0;
 }
 
 @keyframes glitch {
