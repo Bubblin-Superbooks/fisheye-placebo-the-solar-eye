@@ -240,7 +240,7 @@ function updateEmotions() {
 }
 
 /* mouse movement event function */
-$(window).mousemove(function(e) {
+$(window).on('mousemove', function(e) {
     distractedFlag = false;
 
     var eyeposx = parseInt($('.eye').css('left'));
@@ -304,14 +304,15 @@ function followMouse() {
     iris.y = yp;
 }
 
-$('.lids').click(function() {
+$('.lids').on('click tap touchmove touchstart swipe touchend', function() {
     anger += 100;
     blinkTimer = 1;
-    /* eyeSounds[randomInt(0, eyeSounds.length - 1)].play(); */
+    
 });
 
-$('*').click(function() {
-    /* skinSounds[randomInt(0, skinSounds.length - 1)].play(); */
+$('*').on('click tap touchmove touchstart swipe touchend', function() {
+    anger += 100;
+    blinkTimer = 1;
 });
 
 /* linearly interpolate from part to goalPos (smooth animation effect) */

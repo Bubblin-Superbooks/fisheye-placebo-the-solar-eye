@@ -7,7 +7,7 @@ body {
   position: absolute;
   bottom: 12.5vh;
   left: calc(50% - 25vw);
-  width: 50vw;
+  width: 100vw;
   height: 20vw;
   display: -webkit-box;
   display: -webkit-flex;
