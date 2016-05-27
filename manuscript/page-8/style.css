@@ -28,1618 +28,1618 @@ body {
 
 .bar:nth-child(0) {
   background-color: #f90606;
-  -webkit-animation: grow0 1535ms alternate infinite;
-          animation: grow0 1535ms alternate infinite;
+  -webkit-animation: grow0 1947ms alternate infinite;
+          animation: grow0 1947ms alternate infinite;
 }
 
 @-webkit-keyframes grow0 {
   0% {
-    height: 2.4vw;
+    height: 6vw;
   }
   10% {
-    height: 8.7vw;
+    height: 2vw;
   }
   20% {
-    height: 8.9vw;
+    height: 1vw;
   }
   30% {
-    height: 6.7vw;
+    height: 8vw;
   }
   40% {
-    height: 6.3vw;
+    height: 10vw;
   }
   50% {
-    height: 1.2vw;
+    height: 2vw;
   }
   60% {
-    height: 8.2vw;
+    height: 4vw;
   }
   70% {
-    height: 9.1vw;
+    height: 8vw;
   }
   80% {
-    height: 7.2vw;
+    height: 7vw;
   }
   90% {
     height: 4vw;
   }
   100% {
-    height: 5.1vw;
+    height: 10vw;
   }
 }
 
 @keyframes grow0 {
   0% {
-    height: 2.4vw;
+    height: 6vw;
   }
   10% {
-    height: 8.7vw;
+    height: 2vw;
   }
   20% {
-    height: 8.9vw;
+    height: 1vw;
   }
   30% {
-    height: 6.7vw;
+    height: 8vw;
   }
   40% {
-    height: 6.3vw;
+    height: 10vw;
   }
   50% {
-    height: 1.2vw;
+    height: 2vw;
   }
   60% {
-    height: 8.2vw;
+    height: 4vw;
   }
   70% {
-    height: 9.1vw;
+    height: 8vw;
   }
   80% {
-    height: 7.2vw;
+    height: 7vw;
   }
   90% {
     height: 4vw;
   }
   100% {
-    height: 5.1vw;
+    height: 10vw;
   }
 }
 .bar:nth-child(1) {
   background-color: #f20d0d;
-  -webkit-animation: grow1 1889ms alternate infinite;
-          animation: grow1 1889ms alternate infinite;
+  -webkit-animation: grow1 2130ms alternate infinite;
+          animation: grow1 2130ms alternate infinite;
 }
 
 @-webkit-keyframes grow1 {
   0% {
-    height: 36px;
+    height: 6vw;
   }
   10% {
-    height: 31px;
+    height: 1vw;
   }
   20% {
-    height: 70px;
+    height: 2vw;
   }
   30% {
-    height: 89px;
+    height: 7vw;
   }
   40% {
-    height: 61px;
+    height: 2vw;
   }
   50% {
-    height: 26px;
+    height: 10vw;
   }
   60% {
-    height: 39px;
+    height: 8vw;
   }
   70% {
-    height: 82px;
+    height: 3vw;
   }
   80% {
-    height: 10px;
+    height: 10vw;
   }
   90% {
-    height: 39px;
+    height: 4vw;
   }
   100% {
-    height: 52px;
+    height: 6vw;
   }
 }
 
 @keyframes grow1 {
   0% {
-    height: 36px;
+    height: 6vw;
   }
   10% {
-    height: 31px;
+    height: 1vw;
   }
   20% {
-    height: 70px;
+    height: 2vw;
   }
   30% {
-    height: 89px;
+    height: 7vw;
   }
   40% {
-    height: 61px;
+    height: 2vw;
   }
   50% {
-    height: 26px;
+    height: 10vw;
   }
   60% {
-    height: 39px;
+    height: 8vw;
   }
   70% {
-    height: 82px;
+    height: 3vw;
   }
   80% {
-    height: 10px;
+    height: 10vw;
   }
   90% {
-    height: 39px;
+    height: 4vw;
   }
   100% {
-    height: 52px;
+    height: 6vw;
   }
 }
 .bar:nth-child(2) {
   background-color: #ec1313;
-  -webkit-animation: grow2 1564ms alternate infinite;
-          animation: grow2 1564ms alternate infinite;
+  -webkit-animation: grow2 2051ms alternate infinite;
+          animation: grow2 2051ms alternate infinite;
 }
 
 @-webkit-keyframes grow2 {
   0% {
-    height: 99px;
+    height: 10vw;
   }
   10% {
-    height: 22px;
+    height: 1vw;
   }
   20% {
-    height: 67px;
+    height: 5vw;
   }
   30% {
-    height: 38px;
+    height: 2vw;
   }
   40% {
-    height: 12px;
+    height: 9vw;
   }
   50% {
-    height: 48px;
+    height: 4vw;
   }
   60% {
-    height: 60px;
+    height: 9vw;
   }
   70% {
-    height: 41px;
+    height: 10vw;
   }
   80% {
-    height: 65px;
+    height: 7vw;
   }
   90% {
-    height: 34px;
+    height: 8vw;
   }
   100% {
-    height: 78px;
+    height: 9vw;
   }
 }
 
 @keyframes grow2 {
   0% {
-    height: 99px;
+    height: 10vw;
   }
   10% {
-    height: 22px;
+    height: 1vw;
   }
   20% {
-    height: 67px;
+    height: 5vw;
   }
   30% {
-    height: 38px;
+    height: 2vw;
   }
   40% {
-    height: 12px;
+    height: 9vw;
   }
   50% {
-    height: 48px;
+    height: 4vw;
   }
   60% {
-    height: 60px;
+    height: 9vw;
   }
   70% {
-    height: 41px;
+    height: 10vw;
   }
   80% {
-    height: 65px;
+    height: 7vw;
   }
   90% {
-    height: 34px;
+    height: 8vw;
   }
   100% {
-    height: 78px;
+    height: 9vw;
   }
 }
 .bar:nth-child(3) {
   background-color: #e61a1a;
-  -webkit-animation: grow3 1517ms alternate infinite;
-          animation: grow3 1517ms alternate infinite;
+  -webkit-animation: grow3 1890ms alternate infinite;
+          animation: grow3 1890ms alternate infinite;
 }
 
 @-webkit-keyframes grow3 {
   0% {
-    height: 90px;
+    height: 6vw;
   }
   10% {
-    height: 24px;
+    height: 4vw;
   }
   20% {
-    height: 23px;
+    height: 1vw;
   }
   30% {
-    height: 2px;
+    height: 3vw;
   }
   40% {
-    height: 67px;
+    height: 6vw;
   }
   50% {
-    height: 8px;
+    height: 4vw;
   }
   60% {
-    height: 25px;
+    height: 6vw;
   }
   70% {
-    height: 16px;
+    height: 3vw;
   }
   80% {
-    height: 6px;
+    height: 6vw;
   }
   90% {
-    height: 18px;
+    height: 9vw;
   }
   100% {
-    height: 31px;
+    height: 4vw;
   }
 }
 
 @keyframes grow3 {
   0% {
-    height: 90px;
+    height: 6vw;
   }
   10% {
-    height: 24px;
+    height: 4vw;
   }
   20% {
-    height: 23px;
+    height: 1vw;
   }
   30% {
-    height: 2px;
+    height: 3vw;
   }
   40% {
-    height: 67px;
+    height: 6vw;
   }
   50% {
-    height: 8px;
+    height: 4vw;
   }
   60% {
-    height: 25px;
+    height: 6vw;
   }
   70% {
-    height: 16px;
+    height: 3vw;
   }
   80% {
-    height: 6px;
+    height: 6vw;
   }
   90% {
-    height: 18px;
+    height: 9vw;
   }
   100% {
-    height: 31px;
+    height: 4vw;
   }
 }
 .bar:nth-child(4) {
   background-color: #df2020;
-  -webkit-animation: grow4 1692ms alternate infinite;
-          animation: grow4 1692ms alternate infinite;
+  -webkit-animation: grow4 2136ms alternate infinite;
+          animation: grow4 2136ms alternate infinite;
 }
 
 @-webkit-keyframes grow4 {
   0% {
-    height: 27px;
+    height: 10vw;
   }
   10% {
-    height: 49px;
+    height: 1vw;
   }
   20% {
-    height: 31px;
+    height: 7vw;
   }
   30% {
-    height: 21px;
+    height: 1vw;
   }
   40% {
-    height: 99px;
+    height: 3vw;
   }
   50% {
-    height: 50px;
+    height: 8vw;
   }
   60% {
-    height: 62px;
+    height: 4vw;
   }
   70% {
-    height: 75px;
+    height: 9vw;
   }
   80% {
-    height: 26px;
+    height: 10vw;
   }
   90% {
-    height: 87px;
+    height: 7vw;
   }
   100% {
-    height: 62px;
+    height: 10vw;
   }
 }
 
 @keyframes grow4 {
   0% {
-    height: 27px;
+    height: 10vw;
   }
   10% {
-    height: 49px;
+    height: 1vw;
   }
   20% {
-    height: 31px;
+    height: 7vw;
   }
   30% {
-    height: 21px;
+    height: 1vw;
   }
   40% {
-    height: 99px;
+    height: 3vw;
   }
   50% {
-    height: 50px;
+    height: 8vw;
   }
   60% {
-    height: 62px;
+    height: 4vw;
   }
   70% {
-    height: 75px;
+    height: 9vw;
   }
   80% {
-    height: 26px;
+    height: 10vw;
   }
   90% {
-    height: 87px;
+    height: 7vw;
   }
   100% {
-    height: 62px;
+    height: 10vw;
   }
 }
 .bar:nth-child(5) {
   background-color: #d92626;
-  -webkit-animation: grow5 1789ms alternate infinite;
-          animation: grow5 1789ms alternate infinite;
+  -webkit-animation: grow5 1965ms alternate infinite;
+          animation: grow5 1965ms alternate infinite;
 }
 
 @-webkit-keyframes grow5 {
   0% {
-    height: 29px;
+    height: 6vw;
   }
   10% {
-    height: 48px;
+    height: 2vw;
   }
   20% {
-    height: 65px;
+    height: 2vw;
   }
   30% {
-    height: 58px;
+    height: 10vw;
   }
   40% {
-    height: 30px;
+    height: 6vw;
   }
   50% {
-    height: 48px;
+    height: 4vw;
   }
   60% {
-    height: 35px;
+    height: 3vw;
   }
   70% {
-    height: 49px;
+    height: 4vw;
   }
   80% {
-    height: 39px;
+    height: 7vw;
   }
   90% {
-    height: 17px;
+    height: 4vw;
   }
   100% {
-    height: 67px;
+    height: 5vw;
   }
 }
 
 @keyframes grow5 {
   0% {
-    height: 29px;
+    height: 6vw;
   }
   10% {
-    height: 48px;
+    height: 2vw;
   }
   20% {
-    height: 65px;
+    height: 2vw;
   }
   30% {
-    height: 58px;
+    height: 10vw;
   }
   40% {
-    height: 30px;
+    height: 6vw;
   }
   50% {
-    height: 48px;
+    height: 4vw;
   }
   60% {
-    height: 35px;
+    height: 3vw;
   }
   70% {
-    height: 49px;
+    height: 4vw;
   }
   80% {
-    height: 39px;
+    height: 7vw;
   }
   90% {
-    height: 17px;
+    height: 4vw;
   }
   100% {
-    height: 67px;
+    height: 5vw;
   }
 }
 .bar:nth-child(6) {
   background-color: #d22d2d;
-  -webkit-animation: grow6 2132ms alternate infinite;
-          animation: grow6 2132ms alternate infinite;
+  -webkit-animation: grow6 1876ms alternate infinite;
+          animation: grow6 1876ms alternate infinite;
 }
 
 @-webkit-keyframes grow6 {
   0% {
-    height: 36px;
+    height: 8vw;
   }
   10% {
-    height: 34px;
+    height: 3vw;
   }
   20% {
-    height: 32px;
+    height: 6vw;
   }
   30% {
-    height: 1px;
+    height: 9vw;
   }
   40% {
-    height: 74px;
+    height: 2vw;
   }
   50% {
-    height: 65px;
+    height: 5vw;
   }
   60% {
-    height: 27px;
+    height: 2vw;
   }
   70% {
-    height: 32px;
+    height: 1vw;
   }
   80% {
-    height: 16px;
+    height: 5vw;
   }
   90% {
-    height: 33px;
+    height: 1vw;
   }
   100% {
-    height: 41px;
+    height: 8vw;
   }
 }
 
 @keyframes grow6 {
   0% {
-    height: 36px;
+    height: 8vw;
   }
   10% {
-    height: 34px;
+    height: 3vw;
   }
   20% {
-    height: 32px;
+    height: 6vw;
   }
   30% {
-    height: 1px;
+    height: 9vw;
   }
   40% {
-    height: 74px;
+    height: 2vw;
   }
   50% {
-    height: 65px;
+    height: 5vw;
   }
   60% {
-    height: 27px;
+    height: 2vw;
   }
   70% {
-    height: 32px;
+    height: 1vw;
   }
   80% {
-    height: 16px;
+    height: 5vw;
   }
   90% {
-    height: 33px;
+    height: 1vw;
   }
   100% {
-    height: 41px;
+    height: 8vw;
   }
 }
 .bar:nth-child(7) {
   background-color: #cc3333;
-  -webkit-animation: grow7 1953ms alternate infinite;
-          animation: grow7 1953ms alternate infinite;
+  -webkit-animation: grow7 1986ms alternate infinite;
+          animation: grow7 1986ms alternate infinite;
 }
 
 @-webkit-keyframes grow7 {
   0% {
-    height: 16px;
+    height: 6vw;
   }
   10% {
-    height: 7px;
+    height: 9vw;
   }
   20% {
-    height: 34px;
+    height: 6vw;
   }
   30% {
-    height: 50px;
+    height: 9vw;
   }
   40% {
-    height: 33px;
+    height: 4vw;
   }
   50% {
-    height: 9px;
+    height: 4vw;
   }
   60% {
-    height: 77px;
+    height: 5vw;
   }
   70% {
-    height: 91px;
+    height: 10vw;
   }
   80% {
-    height: 72px;
+    height: 9vw;
   }
   90% {
-    height: 59px;
+    height: 2vw;
   }
   100% {
-    height: 82px;
+    height: 10vw;
   }
 }
 
 @keyframes grow7 {
   0% {
-    height: 16px;
+    height: 6vw;
   }
   10% {
-    height: 7px;
+    height: 9vw;
   }
   20% {
-    height: 34px;
+    height: 6vw;
   }
   30% {
-    height: 50px;
+    height: 9vw;
   }
   40% {
-    height: 33px;
+    height: 4vw;
   }
   50% {
-    height: 9px;
+    height: 4vw;
   }
   60% {
-    height: 77px;
+    height: 5vw;
   }
   70% {
-    height: 91px;
+    height: 10vw;
   }
   80% {
-    height: 72px;
+    height: 9vw;
   }
   90% {
-    height: 59px;
+    height: 2vw;
   }
   100% {
-    height: 82px;
+    height: 10vw;
   }
 }
 .bar:nth-child(8) {
   background-color: #c63939;
-  -webkit-animation: grow8 1967ms alternate infinite;
-          animation: grow8 1967ms alternate infinite;
+  -webkit-animation: grow8 1853ms alternate infinite;
+          animation: grow8 1853ms alternate infinite;
 }
 
 @-webkit-keyframes grow8 {
   0% {
-    height: 48px;
+    height: 8vw;
   }
   10% {
-    height: 69px;
+    height: 6vw;
   }
   20% {
-    height: 73px;
+    height: 10vw;
   }
   30% {
-    height: 92px;
+    height: 4vw;
   }
   40% {
-    height: 37px;
+    height: 4vw;
   }
   50% {
-    height: 59px;
+    height: 1vw;
   }
   60% {
-    height: 46px;
+    height: 3vw;
   }
   70% {
-    height: 41px;
+    height: 2vw;
   }
   80% {
-    height: 97px;
+    height: 9vw;
   }
   90% {
-    height: 35px;
+    height: 3vw;
   }
   100% {
-    height: 55px;
+    height: 9vw;
   }
 }
 
 @keyframes grow8 {
   0% {
-    height: 48px;
+    height: 8vw;
   }
   10% {
-    height: 69px;
+    height: 6vw;
   }
   20% {
-    height: 73px;
+    height: 10vw;
   }
   30% {
-    height: 92px;
+    height: 4vw;
   }
   40% {
-    height: 37px;
+    height: 4vw;
   }
   50% {
-    height: 59px;
+    height: 1vw;
   }
   60% {
-    height: 46px;
+    height: 3vw;
   }
   70% {
-    height: 41px;
+    height: 2vw;
   }
   80% {
-    height: 97px;
+    height: 9vw;
   }
   90% {
-    height: 35px;
+    height: 3vw;
   }
   100% {
-    height: 55px;
+    height: 9vw;
   }
 }
 .bar:nth-child(9) {
   background-color: #bf4040;
-  -webkit-animation: grow9 1548ms alternate infinite;
-          animation: grow9 1548ms alternate infinite;
+  -webkit-animation: grow9 1802ms alternate infinite;
+          animation: grow9 1802ms alternate infinite;
 }
 
 @-webkit-keyframes grow9 {
   0% {
-    height: 27px;
+    height: 2vw;
   }
   10% {
-    height: 69px;
+    height: 8vw;
   }
   20% {
-    height: 81px;
+    height: 9vw;
   }
   30% {
-    height: 49px;
+    height: 3vw;
   }
   40% {
-    height: 92px;
+    height: 10vw;
   }
   50% {
-    height: 50px;
+    height: 6vw;
   }
   60% {
-    height: 60px;
+    height: 8vw;
   }
   70% {
-    height: 38px;
+    height: 10vw;
   }
   80% {
-    height: 30px;
+    height: 9vw;
   }
   90% {
-    height: 64px;
+    height: 10vw;
   }
   100% {
-    height: 91px;
+    height: 9vw;
   }
 }
 
 @keyframes grow9 {
   0% {
-    height: 27px;
+    height: 2vw;
   }
   10% {
-    height: 69px;
+    height: 8vw;
   }
   20% {
-    height: 81px;
+    height: 9vw;
   }
   30% {
-    height: 49px;
+    height: 3vw;
   }
   40% {
-    height: 92px;
+    height: 10vw;
   }
   50% {
-    height: 50px;
+    height: 6vw;
   }
   60% {
-    height: 60px;
+    height: 8vw;
   }
   70% {
-    height: 38px;
+    height: 10vw;
   }
   80% {
-    height: 30px;
+    height: 9vw;
   }
   90% {
-    height: 64px;
+    height: 10vw;
   }
   100% {
-    height: 91px;
+    height: 9vw;
   }
 }
 .bar:nth-child(10) {
   background-color: #b94646;
-  -webkit-animation: grow10 1798ms alternate infinite;
-          animation: grow10 1798ms alternate infinite;
+  -webkit-animation: grow10 1887ms alternate infinite;
+          animation: grow10 1887ms alternate infinite;
 }
 
 @-webkit-keyframes grow10 {
   0% {
-    height: 47px;
+    height: 4vw;
   }
   10% {
-    height: 6px;
+    height: 8vw;
   }
   20% {
-    height: 3px;
+    height: 8vw;
   }
   30% {
-    height: 31px;
+    height: 5vw;
   }
   40% {
-    height: 7px;
+    height: 3vw;
   }
   50% {
-    height: 51px;
+    height: 4vw;
   }
   60% {
-    height: 81px;
+    height: 8vw;
   }
   70% {
-    height: 40px;
+    height: 7vw;
   }
   80% {
-    height: 70px;
+    height: 10vw;
   }
   90% {
-    height: 14px;
+    height: 9vw;
   }
   100% {
-    height: 46px;
+    height: 8vw;
   }
 }
 
 @keyframes grow10 {
   0% {
-    height: 47px;
+    height: 4vw;
   }
   10% {
-    height: 6px;
+    height: 8vw;
   }
   20% {
-    height: 3px;
+    height: 8vw;
   }
   30% {
-    height: 31px;
+    height: 5vw;
   }
   40% {
-    height: 7px;
+    height: 3vw;
   }
   50% {
-    height: 51px;
+    height: 4vw;
   }
   60% {
-    height: 81px;
+    height: 8vw;
   }
   70% {
-    height: 40px;
+    height: 7vw;
   }
   80% {
-    height: 70px;
+    height: 10vw;
   }
   90% {
-    height: 14px;
+    height: 9vw;
   }
   100% {
-    height: 46px;
+    height: 8vw;
   }
 }
 .bar:nth-child(11) {
   background-color: #b34d4d;
-  -webkit-animation: grow11 1989ms alternate infinite;
-          animation: grow11 1989ms alternate infinite;
+  -webkit-animation: grow11 2152ms alternate infinite;
+          animation: grow11 2152ms alternate infinite;
 }
 
 @-webkit-keyframes grow11 {
   0% {
-    height: 19px;
+    height: 10vw;
   }
   10% {
-    height: 82px;
+    height: 2vw;
   }
   20% {
-    height: 43px;
+    height: 4vw;
   }
   30% {
-    height: 93px;
+    height: 3vw;
   }
   40% {
-    height: 35px;
+    height: 3vw;
   }
   50% {
-    height: 63px;
+    height: 3vw;
   }
   60% {
-    height: 30px;
+    height: 3vw;
   }
   70% {
-    height: 77px;
+    height: 6vw;
   }
   80% {
-    height: 25px;
+    height: 5vw;
   }
   90% {
-    height: 41px;
+    height: 3vw;
   }
   100% {
-    height: 68px;
+    height: 6vw;
   }
 }
 
 @keyframes grow11 {
   0% {
-    height: 19px;
+    height: 10vw;
   }
   10% {
-    height: 82px;
+    height: 2vw;
   }
   20% {
-    height: 43px;
+    height: 4vw;
   }
   30% {
-    height: 93px;
+    height: 3vw;
   }
   40% {
-    height: 35px;
+    height: 3vw;
   }
   50% {
-    height: 63px;
+    height: 3vw;
   }
   60% {
-    height: 30px;
+    height: 3vw;
   }
   70% {
-    height: 77px;
+    height: 6vw;
   }
   80% {
-    height: 25px;
+    height: 5vw;
   }
   90% {
-    height: 41px;
+    height: 3vw;
   }
   100% {
-    height: 68px;
+    height: 6vw;
   }
 }
 .bar:nth-child(12) {
   background-color: #ac5353;
-  -webkit-animation: grow12 1698ms alternate infinite;
-          animation: grow12 1698ms alternate infinite;
+  -webkit-animation: grow12 1711ms alternate infinite;
+          animation: grow12 1711ms alternate infinite;
 }
 
 @-webkit-keyframes grow12 {
   0% {
-    height: 27px;
+    height: 8vw;
   }
   10% {
-    height: 69px;
+    height: 7vw;
   }
   20% {
-    height: 42px;
+    height: 1vw;
   }
   30% {
-    height: 10px;
+    height: 10vw;
   }
   40% {
-    height: 53px;
+    height: 5vw;
   }
   50% {
-    height: 34px;
+    height: 7vw;
   }
   60% {
-    height: 35px;
+    height: 3vw;
   }
   70% {
-    height: 97px;
+    height: 10vw;
   }
   80% {
-    height: 97px;
+    height: 6vw;
   }
   90% {
-    height: 73px;
+    height: 6vw;
   }
   100% {
-    height: 38px;
+    height: 7vw;
   }
 }
 
 @keyframes grow12 {
   0% {
-    height: 27px;
+    height: 8vw;
   }
   10% {
-    height: 69px;
+    height: 7vw;
   }
   20% {
-    height: 42px;
+    height: 1vw;
   }
   30% {
-    height: 10px;
+    height: 10vw;
   }
   40% {
-    height: 53px;
+    height: 5vw;
   }
   50% {
-    height: 34px;
+    height: 7vw;
   }
   60% {
-    height: 35px;
+    height: 3vw;
   }
   70% {
-    height: 97px;
+    height: 10vw;
   }
   80% {
-    height: 97px;
+    height: 6vw;
   }
   90% {
-    height: 73px;
+    height: 6vw;
   }
   100% {
-    height: 38px;
+    height: 7vw;
   }
 }
 .bar:nth-child(13) {
   background-color: #a65959;
-  -webkit-animation: grow13 1620ms alternate infinite;
-          animation: grow13 1620ms alternate infinite;
+  -webkit-animation: grow13 1626ms alternate infinite;
+          animation: grow13 1626ms alternate infinite;
 }
 
 @-webkit-keyframes grow13 {
   0% {
-    height: 81px;
+    height: 2vw;
   }
   10% {
-    height: 99px;
+    height: 5vw;
   }
   20% {
-    height: 45px;
+    height: 3vw;
   }
   30% {
-    height: 47px;
+    height: 8vw;
   }
   40% {
-    height: 13px;
+    height: 9vw;
   }
   50% {
-    height: 52px;
+    height: 10vw;
   }
   60% {
-    height: 23px;
+    height: 4vw;
   }
   70% {
-    height: 95px;
+    height: 1vw;
   }
   80% {
-    height: 67px;
+    height: 5vw;
   }
   90% {
-    height: 4px;
+    height: 9vw;
   }
   100% {
-    height: 53px;
+    height: 8vw;
   }
 }
 
 @keyframes grow13 {
   0% {
-    height: 81px;
+    height: 2vw;
   }
   10% {
-    height: 99px;
+    height: 5vw;
   }
   20% {
-    height: 45px;
+    height: 3vw;
   }
   30% {
-    height: 47px;
+    height: 8vw;
   }
   40% {
-    height: 13px;
+    height: 9vw;
   }
   50% {
-    height: 52px;
+    height: 10vw;
   }
   60% {
-    height: 23px;
+    height: 4vw;
   }
   70% {
-    height: 95px;
+    height: 1vw;
   }
   80% {
-    height: 67px;
+    height: 5vw;
   }
   90% {
-    height: 4px;
+    height: 9vw;
   }
   100% {
-    height: 53px;
+    height: 8vw;
   }
 }
 .bar:nth-child(14) {
   background-color: #9f6060;
-  -webkit-animation: grow14 2035ms alternate infinite;
-          animation: grow14 2035ms alternate infinite;
+  -webkit-animation: grow14 1789ms alternate infinite;
+          animation: grow14 1789ms alternate infinite;
 }
 
 @-webkit-keyframes grow14 {
   0% {
-    height: 62px;
+    height: 6vw;
   }
   10% {
-    height: 33px;
+    height: 6vw;
   }
   20% {
-    height: 2px;
+    height: 7vw;
   }
   30% {
-    height: 42px;
+    height: 2vw;
   }
   40% {
-    height: 67px;
+    height: 5vw;
   }
   50% {
-    height: 3px;
+    height: 9vw;
   }
   60% {
-    height: 37px;
+    height: 10vw;
   }
   70% {
-    height: 71px;
+    height: 3vw;
   }
   80% {
-    height: 90px;
+    height: 1vw;
   }
   90% {
-    height: 91px;
+    height: 1vw;
   }
   100% {
-    height: 45px;
+    height: 3vw;
   }
 }
 
 @keyframes grow14 {
   0% {
-    height: 62px;
+    height: 6vw;
   }
   10% {
-    height: 33px;
+    height: 6vw;
   }
   20% {
-    height: 2px;
+    height: 7vw;
   }
   30% {
-    height: 42px;
+    height: 2vw;
   }
   40% {
-    height: 67px;
+    height: 5vw;
   }
   50% {
-    height: 3px;
+    height: 9vw;
   }
   60% {
-    height: 37px;
+    height: 10vw;
   }
   70% {
-    height: 71px;
+    height: 3vw;
   }
   80% {
-    height: 90px;
+    height: 1vw;
   }
   90% {
-    height: 91px;
+    height: 1vw;
   }
   100% {
-    height: 45px;
+    height: 3vw;
   }
 }
 .bar:nth-child(15) {
   background-color: #996666;
-  -webkit-animation: grow15 1518ms alternate infinite;
-          animation: grow15 1518ms alternate infinite;
+  -webkit-animation: grow15 1963ms alternate infinite;
+          animation: grow15 1963ms alternate infinite;
 }
 
 @-webkit-keyframes grow15 {
   0% {
-    height: 34px;
+    height: 3vw;
   }
   10% {
-    height: 67px;
+    height: 6vw;
   }
   20% {
-    height: 72px;
+    height: 9vw;
   }
   30% {
-    height: 92px;
+    height: 7vw;
   }
   40% {
-    height: 55px;
+    height: 5vw;
   }
   50% {
-    height: 56px;
+    height: 3vw;
   }
   60% {
-    height: 96px;
+    height: 2vw;
   }
   70% {
-    height: 72px;
+    height: 8vw;
   }
   80% {
-    height: 67px;
+    height: 6vw;
   }
   90% {
-    height: 73px;
+    height: 7vw;
   }
   100% {
-    height: 84px;
+    height: 9vw;
   }
 }
 
 @keyframes grow15 {
   0% {
-    height: 34px;
+    height: 3vw;
   }
   10% {
-    height: 67px;
+    height: 6vw;
   }
   20% {
-    height: 72px;
+    height: 9vw;
   }
   30% {
-    height: 92px;
+    height: 7vw;
   }
   40% {
-    height: 55px;
+    height: 5vw;
   }
   50% {
-    height: 56px;
+    height: 3vw;
   }
   60% {
-    height: 96px;
+    height: 2vw;
   }
   70% {
-    height: 72px;
+    height: 8vw;
   }
   80% {
-    height: 67px;
+    height: 6vw;
   }
   90% {
-    height: 73px;
+    height: 7vw;
   }
   100% {
-    height: 84px;
+    height: 9vw;
   }
 }
 .bar:nth-child(16) {
   background-color: #936c6c;
-  -webkit-animation: grow16 1710ms alternate infinite;
-          animation: grow16 1710ms alternate infinite;
+  -webkit-animation: grow16 1673ms alternate infinite;
+          animation: grow16 1673ms alternate infinite;
 }
 
 @-webkit-keyframes grow16 {
   0% {
-    height: 71px;
+    height: 6vw;
   }
   10% {
-    height: 58px;
+    height: 9vw;
   }
   20% {
-    height: 86px;
+    height: 2vw;
   }
   30% {
-    height: 64px;
+    height: 9vw;
   }
   40% {
-    height: 30px;
+    height: 5vw;
   }
   50% {
-    height: 26px;
+    height: 8vw;
   }
   60% {
-    height: 48px;
+    height: 4vw;
   }
   70% {
-    height: 39px;
+    height: 8vw;
   }
   80% {
-    height: 37px;
+    height: 9vw;
   }
   90% {
-    height: 68px;
+    height: 3vw;
   }
   100% {
-    height: 93px;
+    height: 9vw;
   }
 }
 
 @keyframes grow16 {
   0% {
-    height: 71px;
+    height: 6vw;
   }
   10% {
-    height: 58px;
+    height: 9vw;
   }
   20% {
-    height: 86px;
+    height: 2vw;
   }
   30% {
-    height: 64px;
+    height: 9vw;
   }
   40% {
-    height: 30px;
+    height: 5vw;
   }
   50% {
-    height: 26px;
+    height: 8vw;
   }
   60% {
-    height: 48px;
+    height: 4vw;
   }
   70% {
-    height: 39px;
+    height: 8vw;
   }
   80% {
-    height: 37px;
+    height: 9vw;
   }
   90% {
-    height: 68px;
+    height: 3vw;
   }
   100% {
-    height: 93px;
+    height: 9vw;
   }
 }
 .bar:nth-child(17) {
   background-color: #8c7373;
-  -webkit-animation: grow17 2071ms alternate infinite;
-          animation: grow17 2071ms alternate infinite;
+  -webkit-animation: grow17 1558ms alternate infinite;
+          animation: grow17 1558ms alternate infinite;
 }
 
 @-webkit-keyframes grow17 {
   0% {
-    height: 89px;
+    height: 2vw;
   }
   10% {
-    height: 29px;
+    height: 5vw;
   }
   20% {
-    height: 71px;
+    height: 8vw;
   }
   30% {
-    height: 49px;
+    height: 6vw;
   }
   40% {
-    height: 49px;
+    height: 5vw;
   }
   50% {
-    height: 9px;
+    height: 2vw;
   }
   60% {
-    height: 62px;
+    height: 6vw;
   }
   70% {
-    height: 55px;
+    height: 8vw;
   }
   80% {
-    height: 81px;
+    height: 9vw;
   }
   90% {
-    height: 39px;
+    height: 9vw;
   }
   100% {
-    height: 29px;
+    height: 7vw;
   }
 }
 
 @keyframes grow17 {
   0% {
-    height: 89px;
+    height: 2vw;
   }
   10% {
-    height: 29px;
+    height: 5vw;
   }
   20% {
-    height: 71px;
+    height: 8vw;
   }
   30% {
-    height: 49px;
+    height: 6vw;
   }
   40% {
-    height: 49px;
+    height: 5vw;
   }
   50% {
-    height: 9px;
+    height: 2vw;
   }
   60% {
-    height: 62px;
+    height: 6vw;
   }
   70% {
-    height: 55px;
+    height: 8vw;
   }
   80% {
-    height: 81px;
+    height: 9vw;
   }
   90% {
-    height: 39px;
+    height: 9vw;
   }
   100% {
-    height: 29px;
+    height: 7vw;
   }
 }
 .bar:nth-child(18) {
   background-color: #867979;
-  -webkit-animation: grow18 1732ms alternate infinite;
-          animation: grow18 1732ms alternate infinite;
+  -webkit-animation: grow18 1686ms alternate infinite;
+          animation: grow18 1686ms alternate infinite;
 }
 
 @-webkit-keyframes grow18 {
   0% {
-    height: 95px;
+    height: 7vw;
   }
   10% {
-    height: 62px;
+    height: 9vw;
   }
   20% {
-    height: 79px;
+    height: 6vw;
   }
   30% {
-    height: 72px;
+    height: 9vw;
   }
   40% {
-    height: 21px;
+    height: 2vw;
   }
   50% {
-    height: 82px;
+    height: 9vw;
   }
   60% {
-    height: 37px;
+    height: 7vw;
   }
   70% {
-    height: 84px;
+    height: 9vw;
   }
   80% {
-    height: 86px;
+    height: 4vw;
   }
   90% {
-    height: 19px;
+    height: 3vw;
   }
   100% {
-    height: 6px;
+    height: 4vw;
   }
 }
 
 @keyframes grow18 {
   0% {
-    height: 95px;
+    height: 7vw;
   }
   10% {
-    height: 62px;
+    height: 9vw;
   }
   20% {
-    height: 79px;
+    height: 6vw;
   }
   30% {
-    height: 72px;
+    height: 9vw;
   }
   40% {
-    height: 21px;
+    height: 2vw;
   }
   50% {
-    height: 82px;
+    height: 9vw;
   }
   60% {
-    height: 37px;
+    height: 7vw;
   }
   70% {
-    height: 84px;
+    height: 9vw;
   }
   80% {
-    height: 86px;
+    height: 4vw;
   }
   90% {
-    height: 19px;
+    height: 3vw;
   }
   100% {
-    height: 6px;
+    height: 4vw;
   }
 }
 .bar:nth-child(19) {
   background-color: gray;
-  -webkit-animation: grow19 1701ms alternate infinite;
-          animation: grow19 1701ms alternate infinite;
+  -webkit-animation: grow19 2179ms alternate infinite;
+          animation: grow19 2179ms alternate infinite;
 }
 
 @-webkit-keyframes grow19 {
   0% {
-    height: 14px;
+    height: 5vw;
   }
   10% {
-    height: 49px;
+    height: 9vw;
   }
   20% {
-    height: 42px;
+    height: 5vw;
   }
   30% {
-    height: 50px;
+    height: 2vw;
   }
   40% {
-    height: 42px;
+    height: 6vw;
   }
   50% {
-    height: 16px;
+    height: 5vw;
   }
   60% {
-    height: 60px;
+    height: 10vw;
   }
   70% {
-    height: 69px;
+    height: 6vw;
   }
   80% {
-    height: 69px;
+    height: 3vw;
   }
   90% {
-    height: 58px;
+    height: 3vw;
   }
   100% {
-    height: 61px;
+    height: 7vw;
   }
 }
 
 @keyframes grow19 {
   0% {
-    height: 14px;
+    height: 5vw;
   }
   10% {
-    height: 49px;
+    height: 9vw;
   }
   20% {
-    height: 42px;
+    height: 5vw;
   }
   30% {
-    height: 50px;
+    height: 2vw;
   }
   40% {
-    height: 42px;
+    height: 6vw;
   }
   50% {
-    height: 16px;
+    height: 5vw;
   }
   60% {
-    height: 60px;
+    height: 10vw;
   }
   70% {
-    height: 69px;
+    height: 6vw;
   }
   80% {
-    height: 69px;
+    height: 3vw;
   }
   90% {
-    height: 58px;
+    height: 3vw;
   }
   100% {
-    height: 61px;
+    height: 7vw;
   }
 }
 .bar:nth-child(20) {
   background-color: gray;
-  -webkit-animation: grow20 1640ms alternate infinite;
-          animation: grow20 1640ms alternate infinite;
+  -webkit-animation: grow20 1653ms alternate infinite;
+          animation: grow20 1653ms alternate infinite;
 }
 
 @-webkit-keyframes grow20 {
   0% {
-    height: 38px;
+    height: 3vw;
   }
   10% {
-    height: 28px;
+    height: 5vw;
   }
   20% {
-    height: 69px;
+    height: 5vw;
   }
   30% {
-    height: 47px;
+    height: 7vw;
   }
   40% {
-    height: 76px;
+    height: 8vw;
   }
   50% {
-    height: 69px;
+    height: 10vw;
   }
   60% {
-    height: 75px;
+    height: 10vw;
   }
   70% {
-    height: 78px;
+    height: 9vw;
   }
   80% {
-    height: 10px;
+    height: 4vw;
   }
   90% {
-    height: 32px;
+    height: 5vw;
   }
   100% {
-    height: 64px;
+    height: 7vw;
   }
 }
 
 @keyframes grow20 {
   0% {
-    height: 38px;
+    height: 3vw;
   }
   10% {
-    height: 28px;
+    height: 5vw;
   }
   20% {
-    height: 69px;
+    height: 5vw;
   }
   30% {
-    height: 47px;
+    height: 7vw;
   }
   40% {
-    height: 76px;
+    height: 8vw;
   }
   50% {
-    height: 69px;
+    height: 10vw;
   }
   60% {
-    height: 75px;
+    height: 10vw;
   }
   70% {
-    height: 78px;
+    height: 9vw;
   }
   80% {
-    height: 10px;
+    height: 4vw;
   }
   90% {
-    height: 32px;
+    height: 5vw;
   }
   100% {
-    height: 64px;
+    height: 7vw;
   }
 }

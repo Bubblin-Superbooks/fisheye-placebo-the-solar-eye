@@ -35,10 +35,6 @@
 html, body{
     background: #000;
     color: #0a0;
-    text-shadow: 0 0 3px #0f0;
-    font: 2vw monospace;
-    white-space: pre;
-    tab-size: 4;
 }
 
 body{
@@ -56,7 +52,35 @@ body{
   transform: translateX(-50%);
   height: 50%;
   overflow-y: scroll;
+  white-space: pre;
+  tab-size: 4;
+  text-shadow: 0 0 3px #0f0;
+  font: 2vw monospace;
+
 }
 
-.terminal {
+#bubble {
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    color:black;
+    text-align: center;
+    width: 43vw;
+    height: 6vw;
+    border-left: 0.5vw solid #400;
+    border-bottom: 0.5vw solid #400;
+    border-bottom-left-radius: 20vw 15vw;
+    -moz-border-radius-bottomleft: 20vw 15vw;
+    -webkit-border-bottom-left-radius: 20vw 15vw;
+}
+
+#bubble > #text {
+    position: relative;
+    font-size: 3vw;
+    font-style: italic;
+    height: 6vw;
+    color:black;
+    text-shadow: none;
 }
