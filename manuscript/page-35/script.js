@@ -46,8 +46,8 @@ var mouse = { x: 50, y: 50, oldX: 50, oldY: 50 };
 var boredom = 0,
     shock = 0,
     anger = 0;
-var eyeSounds = document.getElementsByClassName("eye-poke");
-var skinSounds = document.getElementsByClassName("skin-poke");
+/* var eyeSounds = document.getElementsByClassName("eye-poke"); */
+/* var skinSounds = document.getElementsByClassName("skin-poke"); */
 
 var r = iris.w / 2;
 var center = {
@@ -89,7 +89,7 @@ function init() {
 function animate() {
     blinkTimer -= 1 + anger / 50;
     if (blinkTimer <= 0) {
-        blinkTimer = randomInt(120, 600); //60 = 1s
+        blinkTimer = randomInt(120, 600); /*60 = 1s */
         blinkFlag = true;
     }
 
@@ -130,7 +130,7 @@ function animate() {
 }
 
 function updateEyeParts() {
-    // ensure lids close/open properly
+    /* ensure lids close/open properly */
     if (lidTop.pos >= lidMax) {
         lidTop.pos = lidMax;
     } else if (lidTop.pos <= 0) {
@@ -143,28 +143,28 @@ function updateEyeParts() {
         lidBottom.pos = 0;
     }
 
-    // update eye "white" part
+    /* update eye "white" part */
     var rgbString = 'rgb(' + Math.round(eyeColor[0]) + ',' +
         Math.round(eyeColor[1]) + ',' + Math.round(eyeColor[2]) + ')';
     eye.css('background-color', rgbString);
 
-    // pupil focus
+    /* pupil focus */
     pupil.size = interpolate(pupil.size, pupil.sizeGoal, pupil.lerp, 0.03);
     pupil.x = iris.w / 2 - pupil.size / 2;
     pupil.y = iris.h / 2 - pupil.size / 2;
 
-    // top lid
+    /* top lid */
     lids.css('border-top', lidTop.pos + 'px solid ' + skinColor);
 
-    // bottom lid
+    /* bottom lid */
     lids.css('border-bottom', lidBottom.pos + 'px solid ' + skinColor);
 
-    // iris/pupil movement and color
+    /* iris/pupil movement and color */
     iris.ref.css('left', iris.x + 'px');
     iris.ref.css('top', iris.y + 'px');
     iris.ref.css('background', iris.color);
 
-    // pupil
+    /* pupil */
     pupil.ref.css('left', pupil.x + 'px');
     pupil.ref.css('top', pupil.y + 'px');
     pupil.ref.css('width', pupil.size + 'px');
@@ -239,7 +239,7 @@ function updateEmotions() {
     });
 }
 
-// mouse movement event function
+/* mouse movement event function */
 $(window).mousemove(function(e) {
     distractedFlag = false;
 
@@ -259,12 +259,12 @@ $(window).mousemove(function(e) {
         mouse.y = d.y / distance * distanceThreshold + center.y;
     }
 
-    // make eyelids close more the closer the mouse gets to them
+    /* make eyelids close more the closer the mouse gets to them */
     var lidModifier = (distance / 50);
     if (distance > 50) {
         lidModifier = 1;
     } else {
-        // decrease blink interval if moving over eye
+        /* decrease blink interval if moving over eye */
         blinkTimer -= 3;
     }
     if (lidModifier < 0.8) {
@@ -274,18 +274,18 @@ $(window).mousemove(function(e) {
     lidTop.modifier = lidModifier;
     lidBottom.modifier = lidModifier;
 
-    // pupil "focuses" the closer the mouse is
+    /* pupil "focuses" the closer the mouse is */
     if (distance < 100) {
         pupil.sizeGoal = lidModifier * 30;
     } else {
         pupil.sizeGoal = 30;
     }
 
-    // decrease boredom because of mouse movement
+    /* decrease boredom because of mouse movement */
     boredom -= 1;
 });
 
-// move eye according to mouse movement
+/* move eye according to mouse movement */
 function followMouse() {
     var lerpSpeed = 0.12;
     xp = interpolate(xp, mouse.x, 0, lerpSpeed);
@@ -294,7 +294,7 @@ function followMouse() {
     var distance = Math.sqrt((mouse.x - mouse.oldX) * (mouse.x - mouse.oldX) +
         (mouse.y - mouse.oldY) * (mouse.y - mouse.oldY));
 
-    // simulate saccade eye movement
+    /* simulate saccade eye movement */
     if (distance >= 25) {
         xp = interpolate(xp, mouse.x, 0, 0.4);
         yp = interpolate(yp, mouse.y, 0, 0.4);
@@ -307,14 +307,14 @@ function followMouse() {
 $('.lids').click(function() {
     anger += 100;
     blinkTimer = 1;
-    eyeSounds[randomInt(0, eyeSounds.length - 1)].play();
+    /* eyeSounds[randomInt(0, eyeSounds.length - 1)].play(); */
 });
 
 $('*').click(function() {
-    skinSounds[randomInt(0, skinSounds.length - 1)].play();
+    /* skinSounds[randomInt(0, skinSounds.length - 1)].play(); */
 });
 
-// linearly interpolate from part to goalPos (smooth animation effect)
+/* linearly interpolate from part to goalPos (smooth animation effect) */
 function interpolate(part, goalPos, currentLerp, lerpSpeed) {
     if (part != goalPos) {
         currentLerp = 0;
@@ -329,12 +329,12 @@ function interpolate(part, goalPos, currentLerp, lerpSpeed) {
     return part;
 }
 
-// actual formula for linear interpolation 
+/* actual formula for linear interpolation  */
 function lerp(x, t, y) {
     return x * (1 - t) + y * t;
 }
 
-// get random integer in range min-max
+/* get random integer in range min-max */
 function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
